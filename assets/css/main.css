@@ -1,0 +1,37 @@
+#header a{
+	float:right;
+}
+table{
+	vertical-align: top;
+	border-collapse: collapse;
+	border:1px solid black;
+	font-size:12px;
+	font-family:sans-serif;
+	margin:10px;
+}
+td, th {
+	border:1px solid black;
+	padding:5px;
+}
+tr:nth-child(odd){
+	background-color:#cccccc;
+}
+th{
+	background-color:#999999;
+}
+button{
+	background-color:white;
+}
+form{
+	display:inline;
+}
+a.button{
+	padding:5px;
+	background-color:white;
+	border:1px solid black;
+	text-decoration:none;
+	margin:10px;
+}
+a.friends{
+	margin:10px;
+}
